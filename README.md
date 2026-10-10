@@ -21,6 +21,19 @@ SoloStudio 是給自媒體創作者的開放工作室：提供可直接試用的
 
 另外，已從 [marketingskills](https://github.com/coreyhaines31/marketingskills)（查核時 54,022 Stars、MIT 授權）收錄 15 個上游 Skills，按「定位 → 受眾與選題 → 文案 → 製作 → 發布 → 經營 → 搜尋 → 分析」排序。完整清單、版本和各檔案路徑見 [第三方 Skills 目錄](THIRD_PARTY_SKILLS.md)。
 
+### 已收錄的上游 Skills
+
+| 工作流程 | Skill 檔案 |
+|---|---|
+| 0. 定位 | [product-marketing](skills/third-party/marketingskills/skills/product-marketing/SKILL.md) |
+| 1. 受眾與選題 | [customer-research](skills/third-party/marketingskills/skills/customer-research/SKILL.md) · [content-strategy](skills/third-party/marketingskills/skills/content-strategy/SKILL.md) · [marketing-ideas](skills/third-party/marketingskills/skills/marketing-ideas/SKILL.md) |
+| 2. 文案 | [copywriting](skills/third-party/marketingskills/skills/copywriting/SKILL.md) · [copy-editing](skills/third-party/marketingskills/skills/copy-editing/SKILL.md) |
+| 3. 製作 | [video](skills/third-party/marketingskills/skills/video/SKILL.md) · [image](skills/third-party/marketingskills/skills/image/SKILL.md) |
+| 4. 發布 | [social](skills/third-party/marketingskills/skills/social/SKILL.md) |
+| 5. 經營受眾與營收 | [lead-magnets](skills/third-party/marketingskills/skills/lead-magnets/SKILL.md) · [emails](skills/third-party/marketingskills/skills/emails/SKILL.md) · [influencer-marketing](skills/third-party/marketingskills/skills/influencer-marketing/SKILL.md) |
+| 6. 搜尋與發現 | [seo-audit](skills/third-party/marketingskills/skills/seo-audit/SKILL.md) · [ai-seo](skills/third-party/marketingskills/skills/ai-seo/SKILL.md) |
+| 7. 成效分析 | [analytics](skills/third-party/marketingskills/skills/analytics/SKILL.md) |
+
 把任一 Skill 資料夾放到支援 Agent Skills 的 Agent 環境中，依該工具的安裝方式載入。格式包含 `SKILL.md` YAML frontmatter 和 Markdown 指示；不同 Agent 的相容性仍需實測。[Agent Skills 規格](https://agentskills.io/specification)
 
 ## 這個 Repo 歡迎什麼樣的 PR？
