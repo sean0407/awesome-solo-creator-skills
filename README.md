@@ -19,6 +19,8 @@ SoloStudio 是給自媒體創作者的開放工作室：提供可直接試用的
 | [Topic to Short Video](skills/topic-to-short-video/SKILL.md) | 把一個主題或來源資料整理成短影音企劃、口播稿、分鏡和查核清單。 |
 | [Long Video to Short Clips](skills/long-video-to-short-clips/SKILL.md) | 從逐字稿挑選短片段，保留原意和時間碼，再產生平台版本草稿。 |
 
+另外，已從 [marketingskills](https://github.com/coreyhaines31/marketingskills)（查核時 54,022 Stars、MIT 授權）收錄 15 個上游 Skills，按「定位 → 受眾與選題 → 文案 → 製作 → 發布 → 經營 → 搜尋 → 分析」排序。完整清單、版本和各檔案路徑見 [第三方 Skills 目錄](THIRD_PARTY_SKILLS.md)。
+
 把任一 Skill 資料夾放到支援 Agent Skills 的 Agent 環境中，依該工具的安裝方式載入。格式包含 `SKILL.md` YAML frontmatter 和 Markdown 指示；不同 Agent 的相容性仍需實測。[Agent Skills 規格](https://agentskills.io/specification)
 
 ## 這個 Repo 歡迎什麼樣的 PR？
@@ -93,4 +95,4 @@ SoloStudio 是給自媒體創作者的開放工作室：提供可直接試用的
 
 ## 授權
 
-本 Repo 的原創文字、Skills 與分類採 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。第三方資源仍受其各自授權約束。本專案不複製第三方程式碼、付費教材或提示詞；提交內容前請確認自己有權依 CC BY 4.0 分享。
+本 Repo 的原創文字、Skills 與分類採 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。位於 `skills/third-party/` 的上游 Skills 依各來源授權，授權全文與來源版本保留在各來源目錄；請參閱 [第三方 Skills 目錄](THIRD_PARTY_SKILLS.md)。提交內容前請確認自己有權依 CC BY 4.0 分享。

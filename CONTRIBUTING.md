@@ -25,6 +25,8 @@
 
 可從 [Contributor Tasks](CONTRIBUTOR_TASKS.md) 選一項開始。若任務牽涉可能變動的平台規則，請引用官方來源並註明查核日期。需要新方向時，先使用 GitHub Issue 的「Propose a Skill or workflow」範本討論範圍。
 
+`skills/third-party/` 是附有來源版本與授權的上游快照。請勿直接把它們當成 CC BY 4.0 原創內容修改或重新授權。第三方 Skill 的更新請先比對來源 Repo、保留版權與授權資訊，並同步更新 [THIRD_PARTY_SKILLS.md](THIRD_PARTY_SKILLS.md)。若要提出改寫版，請放在不同目錄，標註改動和來源，並確認授權相容。
+
 ## Pull Request 檢查清單
 
 - [ ] 內容符合 README 的收錄原則，且分類放置正確。

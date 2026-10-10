@@ -6,5 +6,6 @@ Creative Commons Attribution 4.0 International Public License (CC BY 4.0).
 Official license text:
 https://creativecommons.org/licenses/by/4.0/legalcode
 
-This license does not apply to linked third-party projects, which remain
-subject to their respective licenses and terms.
+This license does not apply to files under skills/third-party/ or linked
+third-party projects. Those works remain subject to their respective
+licenses and terms. See THIRD_PARTY_SKILLS.md for included source details.
