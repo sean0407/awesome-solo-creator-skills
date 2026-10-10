@@ -1,0 +1,33 @@
+name: Propose a platform adaptation
+description: Adapt a creator workflow to a platform using current official guidance.
+title: "[Platform adaptation]: "
+labels: ["platform adaptation"]
+body:
+  - type: input
+    id: platform
+    attributes:
+      label: Platform and creator task
+      placeholder: YouTube Shorts — captions and title check
+    validations:
+      required: true
+  - type: input
+    id: official-source
+    attributes:
+      label: Official documentation URL
+      description: Prefer the platform's own help or developer documentation.
+    validations:
+      required: true
+  - type: input
+    id: checked-date
+    attributes:
+      label: Date checked
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: textarea
+    id: workflow-change
+    attributes:
+      label: What needs to change in the workflow?
+      description: Explain the adaptation and any human review required.
+    validations:
+      required: true

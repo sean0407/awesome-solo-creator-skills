@@ -1,0 +1,39 @@
+name: Share a workflow test
+description: Test an existing Skill and share a reproducible result or failure case.
+title: "[Workflow test]: "
+labels: ["workflow test"]
+body:
+  - type: input
+    id: skill
+    attributes:
+      label: Skill or workflow tested
+      placeholder: skills/topic-to-short-video
+    validations:
+      required: true
+  - type: input
+    id: agent
+    attributes:
+      label: Agent or model and version
+    validations:
+      required: true
+  - type: textarea
+    id: input-output
+    attributes:
+      label: Sanitized input and result
+      description: Use synthetic, public, or authorized material. Summarize the output or failure.
+    validations:
+      required: true
+  - type: textarea
+    id: reproducibility
+    attributes:
+      label: Steps and date
+      description: Include the date, relevant settings, and enough detail for another contributor to repeat the test.
+    validations:
+      required: true
+  - type: textarea
+    id: limitation
+    attributes:
+      label: What should be improved?
+      description: Point to the instruction or edge case that needs work.
+    validations:
+      required: true

@@ -1,0 +1,32 @@
+name: Update or report a resource
+description: Report an outdated listing, changed license, pricing change, or broken link.
+title: "[Resource update]: "
+labels: ["resource maintenance"]
+body:
+  - type: input
+    id: resource
+    attributes:
+      label: Resource URL
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: change
+    attributes:
+      label: What changed?
+      options:
+        - Broken or redirected link
+        - License or usage terms
+        - Price or required account
+        - Platform compatibility
+        - Maintenance status
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source and verification date
+      description: Link to the primary source and say when you checked it.
+    validations:
+      required: true

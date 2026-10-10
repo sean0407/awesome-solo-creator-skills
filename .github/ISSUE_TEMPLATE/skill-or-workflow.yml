@@ -1,0 +1,38 @@
+name: Propose a Skill or workflow
+description: Suggest an original, reusable workflow for a creator task.
+title: "[Proposal]: "
+labels: ["skill proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Propose a small workflow that helps a solo creator complete a real task. Search existing Skills and issues first.
+  - type: input
+    id: task
+    attributes:
+      label: Creator task
+      description: What specific task should this Skill or workflow help with?
+      placeholder: Turn a long interview transcript into accurate short-clip candidates
+    validations:
+      required: true
+  - type: textarea
+    id: audience
+    attributes:
+      label: Intended creator
+      description: Who would use it and in what situation?
+    validations:
+      required: true
+  - type: textarea
+    id: example
+    attributes:
+      label: Example input and expected output
+      description: A small synthetic or authorized example is enough.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence, constraints, and rights
+      description: List sources, platform requirements, license concerns, and what needs human review.
+    validations:
+      required: true
